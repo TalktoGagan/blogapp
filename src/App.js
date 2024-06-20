@@ -1,24 +1,33 @@
-import logo from './logo.svg';
+import Home from './HomePage/Home';
 import './App.css';
+import LoginForm from './SignInPage/LoginForm';
+import { Provider } from 'react-redux';
+import Store from './Store/Store';
+import { Route, BrowserRouter as Router, Routes, } from 'react-router-dom';
+import BlogForm from './BlogPage/BlogForm';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+   <Provider store={Store}>
+    <Router>
+      <Routes>
+        <Route path='/' element={<LoginForm/>}/>
+        <Route path='/Home' element={<Home/>}/>
+        <Route path='/Blogger' element={<BlogForm/>}/>
+        <Route path='/blogger/delete' element={<BlogForm/>}/>
+        <Route path='/blogger/update' element={<BlogForm/>}/>
+        <Route path='/blogger/edit' element={<BlogForm/>}/>
+        <Route path='/blogger/clearall' element={<BlogForm/>}/>
+        
+     
+      </Routes>
+    </Router>
+     {/* <PageNavbar/> */}
+      </Provider>
+      </>
+
+   
   );
 }
 

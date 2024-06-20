@@ -1,38 +1,185 @@
-.App {
+/* .Home-Container{
+  background-image: url("https://www.phonepe.com/webstatic/7242/static/0ee06b9fa43ed40250b14af6529a2c41/33345/blogs-main-hero-banner-desktop.png");
+  background-size: cover;
+  height: 100vh;
+  background-attachment: fixed;
+}
+.homeh2{
+  color: aliceblue;
+}
+.Home-Container2{
+  background-image: url("https://cdn.pixabay.com/photo/2018/04/07/08/28/notepad-3297994_1280.jpg");
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  text-align:right;
+}
+.Home-Container3{
+  background-image: url("https://img.freepik.com/premium-photo/office-creative-pastel-desk-with-supplies-copy-space_67155-428.jpg?size=626&ext=jpg");
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+ */
+ 
+ .home-h1 {
+  font-size: xx-large;
+  color: aliceblue;
+}
+.home-h3 {
+  color: aliceblue;
+}
+.blog-H2 {
+  color: rgb(108, 110, 113);
+}
+.homeContainer-1 {
+  height: 100vh;
+  background-attachment: fixed;
+  /* background-color: rgb(228, 82, 82); */
+  background-image: url("https://www.phonepe.com/webstatic/7242/static/0ee06b9fa43ed40250b14af6529a2c41/33345/blogs-main-hero-banner-desktop.png");
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+}
+ 
+.homeContainer-2 {
+  padding: 1px;
+  height: 70vh;
+  background-attachment: fixed;
+  /* background-color: rgb(209, 113, 16); */
+  background-image: url("https://img.freepik.com/premium-photo/light-blue-background-calculator-notepad-glasses-pen-copy-space_380694-198.jpg?size=626&ext=jpg&ga=GA1.1.1794686735.1718005603&semt=ais_user");
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+}
+.homePara-1 {
+  font-size: xx-large;
+  color: black;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.homePara-2 {
+  font-size: large;
+  color: black;
+  text-align: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.homePara3-1 {
+  font-size: xx-large;
   color: white;
+  text-align: center;
+}
+.homePara3-2 {
+  font-size: large;
+  color: white;
+  text-align: center;
+}
+.homeContainer-3 {
+  padding: 1px;
+  height: 40vh;
+  background-color: rgb(183, 181, 43);
+}
+.homeContainer-4 {
+  height: 80vh;
+  padding: auto;
+  background-attachment: fixed;
+  background-image: url("https://img.freepik.com/premium-photo/office-creative-pastel-desk-with-supplies-copy-space_67155-428.jpg?size=626&ext=jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.paraContainer {
+  margin-left: 550px;
+  padding-top: 150px;
+}
+.paraContainer-2 {
+  margin-right: 570px;
+  padding-top: 100px;
+}
+.homeContainer-6 {
+  height: 60vh;
+  color: #fefafa;
+  background-attachment: fixed;
+  background-image: url("https://img.freepik.com/free-photo/flat-lay-workstation-with-copy-space-laptop_23-2148430879.jpg?size=626&ext=jpg&ga=GA1.1.1794686735.1718005603&semt=ais_user");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.homeContainer-5 {
+  height: 50vh;
+  background-color: rgb(238, 134, 7);
+  padding: 1px;
+}
+.blogContainer-1{
+  height: 100vh;
+  background-attachment: fixed;
+  /* background-color: rgb(228, 82, 82); */
+  background-image: url("https://img.freepik.com/free-photo/desk-concept-frame-with-copy-space_23-2148604883.jpg?size=626&ext=jpg&ga=GA1.1.1794686735.1718005603&semt=ais_user");
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+}
+/* .blogContainer-1 {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+} */
+
+.form-container {
+  /* background-color: #f9f9f97e; */
+  padding: 20px;
+  border-radius: 8px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
 }
 
-.App-link {
-  color: #61dafb;
+.form-field {
+  margin-bottom: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.label {
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+
+.input-field {
+  width: 20%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.error-msg {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.btn-container {
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+}
+
+.btncancel{
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #e65151;
+  color: #fff;
+}
+.blogList {
+  color: #fefafa;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  
+}
+.Initialtitle{
+  color: #fefafa;
+  text-decoration: underline;
 }
